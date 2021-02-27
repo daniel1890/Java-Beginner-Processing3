@@ -1,0 +1,43 @@
+//lengte en breedte scherm
+int schermBreedte = 500
+int schermLengte = breedte / 2.5
+
+//hoogste waarde die te bereiken is door de staven
+int staafMax = 200
+
+//Waarden van de staven
+float staafA = 20.0
+float staafB = 190.0
+float staafC = 150.0
+
+//bereken y as positie van de staven
+int staafAY = schermLengte - staafLengteA
+int staafBY = schermLengte - staafLengteB
+int staafCY = schermLengte - staafLengteC
+
+//gemiddelde waarde van alle staven bijelkaar opgetelt en gedeeld door het aantal
+float gemiddeldeLijn ((staafA + staafB + staafC) / 3 )
+
+//kleurcodes van de benodigde kleuren gecorrespondeerd aan de elementen
+staafA 		BLAUW	0000FF
+staafB 		GROEN	00FF00
+staafC 		ORANJE	F44611
+gemiddeldeLijn 	ROZE	CA2C92
+background	ZWART	000000
+
+//lengte en breedte waarden van de staven
+int staafBreedte = schermBreedte / 5
+int staafLengteA = staafA * (schermLengte / staafMax)
+int staafLengteB = staafB * (schermLengte / staafMax)
+int staafLengteC = staafC * (schermLengte / staafMax)
+
+//getalwaarde van de staaf boven de staaf uitgedrukt in tekst
+int staafLengte + 20
+
+//staven tekenen
+staafA rect(50, staafAY, staafBreedte, staafLengteA)
+staafB rect(200, staafBY, staafBreedte, staafLengteB)
+staafC rect(350, staafCY, staafBreedte, staafLengteC)
+
+
+
