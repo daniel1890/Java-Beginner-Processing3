@@ -1,0 +1,21 @@
+//kleuren
+int ZWART = #000000;
+int WIT = #FFFFFF;
+int GRIJS = #8E8E8E;
+
+//zwarte achtergrond
+background(0);
+
+//eigenschappen vracht
+ell met diameter 1/8 van het scherm;
+kleur GRIJS;
+
+//eigenschappen vracht
+rect met breedte 1/8 van het scherm;
+kleur WIT;
+
+voorwaardes:
+-als pijltjestoets ingedrukt wordt moet de robot 1/8 van het scherm in de directie van de gecoresponderende pijltjestoets bewegen.
+-als de enter knop wordt gedrukt wanneer de robot op de vracht staat moet de robot de vracht laden, wanneer de enter knop gedrukt
+ wordt wanneer de robot de vracht heeft geladen moet hij de lading weer loslaten.
+-als de robot het scherm probeert te verlaten moet dat niet kunnen.
